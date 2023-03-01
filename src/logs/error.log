@@ -16,3 +16,6 @@
 [01.03.2023, 16:15:44] Bot error: Error: 400: Bad Request: can't use empty switch_pm_parameter
 [01.03.2023, 16:15:47] Bot error: Error: 400: Bad Request: can't use empty switch_pm_parameter
 [01.03.2023, 16:15:54] Bot error: Error: 400: Bad Request: can't use empty switch_pm_parameter
+[01.03.2023, 16:37:00] Bot error: Error: 400: Bad Request: query is too old and response timeout expired or query ID is invalid
+[01.03.2023, 16:37:00] Bot error: Error: 400: Bad Request: query is too old and response timeout expired or query ID is invalid
+[01.03.2023, 16:37:00] Bot error: Error: 400: Bad Request: query is too old and response timeout expired or query ID is invalid
