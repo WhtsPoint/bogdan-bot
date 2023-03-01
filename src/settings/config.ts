@@ -3,7 +3,7 @@ import path from "path"
 interface IConfig {
     api_token: string,
     error_file: string,
-    max_count_on_inline : number
+    max_count_on_inline: number
 }
 
 const config : IConfig = {
