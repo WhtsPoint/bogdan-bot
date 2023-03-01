@@ -19,3 +19,6 @@
 [01.03.2023, 16:37:00] Bot error: Error: 400: Bad Request: query is too old and response timeout expired or query ID is invalid
 [01.03.2023, 16:37:00] Bot error: Error: 400: Bad Request: query is too old and response timeout expired or query ID is invalid
 [01.03.2023, 16:37:00] Bot error: Error: 400: Bad Request: query is too old and response timeout expired or query ID is invalid
+[01.03.2023, 18:18:05] Bot error: Error: ENOENT: no such file or directory, scandir './sounds'
+[01.03.2023, 18:19:17] Bot error: Error: ENOENT: no such file or directory, scandir '../../sound-creation/sounds'
+[01.03.2023, 18:19:33] Bot error: Error: ENOENT: no such file or directory, scandir '../../sound-creation/sounds'
