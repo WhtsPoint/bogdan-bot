@@ -7,7 +7,7 @@ interface IConfig {
 }
 
 const config : IConfig = {
-    api_token: "TELEGRAM BOT API KEY",
+    api_token: process.env.API_KEY,
     error_file: path.resolve(__dirname, "../logs/error.log"),
     max_count_on_inline : 50
 }
