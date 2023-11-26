@@ -4,9 +4,10 @@ import delay from "../utils/delay"
 import path from "path"
 
 async function createSound(filePath: string, ctx: TelegrafContext): Promise<void> {
-    const files = fs.readdirSync(filePath)
+    const files = fs.readdirSync(filePath).filter((fileName) => fileName[0] !== '.')
     let resultArray = []
-    for(const file of files) {
+
+    for (const file of files) {
         await ctx.replyWithVoice({source: path.resolve(filePath, file)}).then((ctx) => {
             resultArray.push({title: path.parse(file).name, fileId: ctx.voice.file_id})
         })

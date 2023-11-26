@@ -4,5 +4,6 @@ package-lock.json
 src/logs/*
 *.js
 *.js.map
-src/sounds
 src/sound-creation/sounds/*
+!.gitkeep
+build
